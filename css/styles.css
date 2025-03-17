@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 3000px;
+}
+ul{
+    margin-left: 50px;
+}
+
+h1{
+    
+    text-align: center;
+
+}
+a:link{
+    color: brown;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(135, 27, 171);
+    text-decoration: none;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: all 0.3s ease-out;
+}
+.cuadro:hover{
+    transform: rotate(90deg);
+    /*content: "Hola";*/
+}
+/*.cuadro::after{
+    
+}*/
+header{
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    /*margin-top: 300px;*/
+    top: 0px;
+    background-color: aqua;
+}
+
+@media all and (min-device-width: 500px){
+    header{
+        background-color: blueviolet;
+    }
+    
+}
