@@ -5,6 +5,15 @@ window.onload = function() {
     let circulo = document.getElementsByClassName('circulo');
     console.log(circulo);
     for (let j = 0; j < circulo.length; j++) {
+        let cuadro = document.createElement('div');
+        cuadro.style.width = '10px';
+        cuadro.style.height = '10px';
+        cuadro.style.backgroundColor = 'grey';
+        cuadro.style.display = 'inline-block';
+        cuadro.style.margin = '10px';
+        document.body.appendChild(cuadro);
+
+
         circulo[j].i = 1;
         circulo[j].addEventListener('click', function() {
 
